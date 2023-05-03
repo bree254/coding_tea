@@ -14,10 +14,10 @@ class SplashScreen extends StatelessWidget {
               Container(
                 height: size.height,
                 width: size.width,
-                child: Image(image: AssetImage('assets/images/robotwifi.png')),
+                child: const Image(image: AssetImage('assets/images/robotwifi.png')),
 
               ),
-              Center(
+              const Center(
                 child: Text(
                     'WiiApp',
                 style: TextStyle(
