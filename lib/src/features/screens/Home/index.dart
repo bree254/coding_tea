@@ -13,13 +13,13 @@ class AppHome extends StatelessWidget {
           padding:EdgeInsets.all(20),
         child: ListView(
         children: [
-          Text('Bree',style: Theme.of(context).textTheme.headline1),
-          Text('itha',style: Theme.of(context).textTheme.headline2),
-          Text('vinn',style: Theme.of(context).textTheme.headline3),
-          Text('moses',style: Theme.of(context).textTheme.headline4),
-          Text('alex',style: Theme.of(context).textTheme.headline5),
-          Text('jeff',style: Theme.of(context).textTheme.headline6),
-          Text('newton',style: Theme.of(context).textTheme.headline1),
+          Text('Bree',style: Theme.of(context).textTheme.displayLarge),
+          Text('itha',style: Theme.of(context).textTheme.displayMedium),
+          Text('vinn',style: Theme.of(context).textTheme.displaySmall),
+          Text('moses',style: Theme.of(context).textTheme.headlineMedium),
+          Text('alex',style: Theme.of(context).textTheme.headlineSmall),
+          Text('jeff',style: Theme.of(context).textTheme.titleLarge),
+          Text('newton',style: Theme.of(context).textTheme.displayLarge),
           ElevatedButton(onPressed: () {}, child: Text('press me')),
           ElevatedButton(onPressed: () {}, child: Text('press me')),
           Padding(

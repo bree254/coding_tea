@@ -5,14 +5,14 @@ class TAppTheme{
   static ThemeData lightTheme = ThemeData(
     brightness: Brightness.light,
     textTheme: TextTheme(
-      headline2: GoogleFonts.montserrat(color : Colors.black54,
+      displayMedium: GoogleFonts.poppins(color : Colors.black54,
       fontSize : 24)
     )
   );
   static ThemeData darkTheme = ThemeData(
       brightness: Brightness.light,
       textTheme: TextTheme(
-          headline2: GoogleFonts.montserrat(color : Colors.white70,
+          displayMedium: GoogleFonts.poppins(color : Colors.white70,
               fontSize : 24)
       )
   );
