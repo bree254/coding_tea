@@ -34,7 +34,6 @@ class OnBoardingController extends GetxController {
     ),
   ];
   onPageChangeCallback(int activePageIndex) {
-
       currentPage.value = activePageIndex;
 
   }
